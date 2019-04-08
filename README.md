@@ -1,11 +1,11 @@
-# Source code for Cassandra Presentation
+# Source code for a Cassandra presentation
 
 This folder contains the infrastructure code and
 examples for a Cassandra presentation.
 
 The structure of the project is described below.
 
-## Cluster
+## cluster
 
 This folder contains the dockerized environment.
 
@@ -26,4 +26,17 @@ This folder contains the dockerized environment.
 ./node1-shell.sh
 ```
 
-TBC
+## CQL
+
+Contains the CQL example files.
+
+## client-app
+
+Simple client application that connects to a local cluster.
+Requirements:
+ - A cassandra cluster available @ localhost
+ - The nobel.laureates table
+ - An index on borncountrycode
+
+All the requirements are satisfied after executing
+the queries from the CQL folder.
