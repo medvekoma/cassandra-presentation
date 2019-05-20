@@ -21,16 +21,6 @@ CREATE TABLE incidents_by_driver (
     PRIMARY KEY (driver_pid, incident_time)
 ) WITH CLUSTERING ORDER BY (incident_time DESC);
 
-CREATE MATERIALIZED VIEW incidents_by_driver_mview AS
-    SELECT * FROM incidents_by_vehicle
-    WHERE
-        driver_pid IS NOT NULL AND
-        incident_time IS NOT NULL AND
-        regnr IS NOT NULL AND
-        ccode IS NOT NULL
-PRIMARY KEY (driver_pid, incident_time, regnr, ccode)
-WITH CLUSTERING ORDER BY (incident_time DESC);
-
 CREATE TABLE penalty_by_driver(
     driver_pid bigint PRIMARY KEY,
     sum_penalty counter
