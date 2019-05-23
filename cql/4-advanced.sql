@@ -26,6 +26,12 @@ WHERE employeeid = 1 AND year = 2016;
 
 -- ## Lightweight Transactions
 
+CREATE TABLE users (
+    username text PRIMARY KEY,
+    name text,
+    passwordhash text
+);
+
 -- Verify by primary key
 INSERT INTO users (username, name, passwordhash)
 VALUES ('ada', 'Ada Lovelace', '20a46ee0')
@@ -54,6 +60,12 @@ SELECT * FROM laureates_by_category
 WHERE category = 'Cassandra';
 
 -- ## JSON support
+
+CREATE TABLE contacts (
+    id bigint PRIMARY KEY,
+    name text,
+    phones map<text, text>
+);
 
 INSERT INTO contacts JSON
 '{
