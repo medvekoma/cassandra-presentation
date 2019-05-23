@@ -18,8 +18,8 @@ CREATE TABLE incidents_by_driver (
     driver_pid bigint,
     incident_location text,
     penalty int,
-    PRIMARY KEY (driver_pid, incident_time)
-) WITH CLUSTERING ORDER BY (incident_time DESC);
+    PRIMARY KEY (driver_pid, ccode, regnr, incident_time)
+) WITH CLUSTERING ORDER BY (ccode ASC, regnr ASC, incident_time DESC);
 
 CREATE TABLE penalty_by_driver(
     driver_pid bigint PRIMARY KEY,
