@@ -23,7 +23,7 @@ SELECT * FROM contacts;
 
 | Row Key |  |  |  |
 | --- |: --- :|: --- :|: --- :|
-| 1 | **name**<br>Cassandra Smith | phones:Home<br>+36 1 1234567 | phones:Mobile<br>+36 30 7894561 |
+| 1 | name<br>Cassandra Smith | phones:Home<br>+36 1 1234567 | phones:Mobile<br>+36 30 7894561 |
 
 
 UPDATE contacts 
