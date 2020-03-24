@@ -40,16 +40,33 @@ IF passwordhash = '20a46ee0';
 
 -- ## Materialized Views
 
+USE nobel;
+
+CREATE TABLE laureates_by_year
+(
+  year int,
+  category text,
+  laureateid int,
+  firstname text,
+  surname text,
+  borncountrycode text,
+  borncity text,
+  PRIMARY KEY (year, laureateid)
+);
+
+COPY laureates_by_year (year, category, laureateid, firstname, surname, borncountrycode, borncity)
+FROM 'nobel-laureates.csv';
+
 CREATE MATERIALIZED VIEW laureates_by_category AS
-  SELECT * FROM laureates
+  SELECT * FROM laureates_by_year
   -- primary key fields must be non-null
   WHERE category IS NOT NULL AND laureateid IS NOT NULL
 PRIMARY KEY (category, year, laureateid)
 WITH CLUSTERING ORDER BY (year DESC, laureateid ASC);
 
-INSERT INTO laureates
+INSERT INTO laureates_by_year
 (year, laureateid, category, firstname)
-VALUES (2019, 9999, 'Cassandra', 'epam');
+VALUES (2020, 9999, 'Cassandra', 'Óbuda University');
 
 SELECT * FROM laureates_by_category
 WHERE category = 'Cassandra';
