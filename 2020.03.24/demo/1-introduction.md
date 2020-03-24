@@ -21,10 +21,12 @@ VALUES
 SELECT * FROM contacts;
 ```
 
+
 | Row Key |                 |               |                |
 | ------ :|: ------------- :|: ----------- :|: ------------ :|
 | 1       | name            | phones:Home   | phones:Mobile  |
 |         | Cassandra Smith | +36 1 1234567 | +36 30 7894561 |
+
 
 
 UPDATE contacts 
