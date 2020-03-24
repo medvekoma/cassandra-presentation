@@ -29,6 +29,11 @@ SELECT * FROM contacts;
 UPDATE contacts 
 SET phones = phones + {'Other':'+1 205 7897897'} 
 WHERE id = 1;
+
+INSERT INTO contacts 
+  (id, name, phones) 
+VALUES 
+  (2, 'Noah Sequel', {'Work':'+36 1 4326112'});
 ```
 
 ### Internal representation

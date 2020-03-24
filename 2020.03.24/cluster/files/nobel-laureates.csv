@@ -7,7 +7,7 @@
 1902,literature,571,Christian Matthias Theodor,Mommsen,DE,Garding
 1909,physics,13,Guglielmo,Marconi,IT,Bologna
 1909,physics,14,Karl Ferdinand,Braun,DE,Fulda
-1909,chemistry,168,Wilhelm,Ostwald,,Riga
+1909,chemistry,168,Wilhelm,Ostwald,?,Riga
 1909,medicine,303,Emil Theodor,Kocher,CH,Berne
 1909,peace,475,Auguste Marie François,Beernaert,BE,Ostend
 1909,peace,476,Paul Henri Benjamin Balluet,"d'Estournelles de Constant, Baron de Constant de Rebecque",FR,La Flèche
@@ -23,7 +23,7 @@
 1944,chemistry,202,Otto,Hahn,DE,Frankfurt-on-the-Main
 1944,medicine,337,Joseph,Erlanger,US,"San Francisco, CA"
 1944,medicine,338,Herbert Spencer,Gasser,US,"Platteville, WI"
-1944,peace,482,Comité international de la Croix Rouge (International Committee of the Red Cross),,,
+1944,peace,482,Comité international de la Croix Rouge (International Committee of the Red Cross),,?,
 1944,literature,614,Johannes Vilhelm,Jensen,DK,Farsø
 1992,physics,142,Georges,Charpak,PL,Dabrovica
 1992,chemistry,277,Rudolph A.,Marcus,CA,Montreal
@@ -41,7 +41,7 @@
 1999,physics,159,Martinus J.G.,Veltman,NL,Waalwijk
 1999,chemistry,292,Ahmed H.,Zewail,EG,Damanhur
 1999,medicine,461,Günter,Blobel,PL,Waltersdorf (now Niegoslawice)
-1999,peace,568,Médecins Sans Frontières,,,
+1999,peace,568,Médecins Sans Frontières,,?,
 1999,literature,676,Günter,Grass,PL,Danzig (now Gdansk)
 1999,economics,720,Robert A.,Mundell,CA,"Kingston, ON"
 1971,physics,93,Dennis,Gabor,HU,Budapest
@@ -82,11 +82,11 @@
 1981,physics,119,Arthur Leonard,Schawlow,US,"Mount Verno, NY"
 1981,physics,120,Kai M.,Siegbahn,SE,Lund
 1981,chemistry,257,Kenichi,Fukui,JP,Nara
-1981,chemistry,258,Roald,Hoffmann,,Zloczov
+1981,chemistry,258,Roald,Hoffmann,?,Zloczov
 1981,medicine,422,Roger W.,Sperry,US,"Hartford, CT"
 1981,medicine,423,David H.,Hubel,CA,"Windsor, ON"
 1981,medicine,424,Torsten N.,Wiesel,SE,Uppsala
-1981,peace,515,Office of the United Nations High Commissioner for Refugees (UNHCR),,,
+1981,peace,515,Office of the United Nations High Commissioner for Refugees (UNHCR),,?,
 1981,literature,658,Elias,Canetti,BG,Ruse
 1981,economics,695,James,Tobin,US,"Champaign, IL"
 1954,physics,61,Max,Born,PL,Breslau (now Wroclaw)
@@ -95,7 +95,7 @@
 1954,medicine,356,John Franklin,Enders,US,"West Hartford, CT"
 1954,medicine,357,Thomas Huckle,Weller,US,"Ann Arbor, MI"
 1954,medicine,358,Frederick Chapman,Robbins,US,"Auburn, AL"
-1954,peace,515,Office of the United Nations High Commissioner for Refugees (UNHCR),,,
+1954,peace,515,Office of the United Nations High Commissioner for Refugees (UNHCR),,?,
 1954,literature,625,Ernest Miller,Hemingway,US,"Oak Park, IL"
 1965,physics,84,Sin-Itiro,Tomonaga,JP,Kyoto
 1965,physics,85,Julian,Schwinger,US,"New York, NY"
@@ -104,7 +104,7 @@
 1965,medicine,380,François,Jacob,FR,Nancy
 1965,medicine,381,André,Lwoff,FR,Ainay-le-Château
 1965,medicine,382,Jacques,Monod,FR,Paris
-1965,peace,525,United Nations Children's Fund (UNICEF),,,
+1965,peace,525,United Nations Children's Fund (UNICEF),,?,
 1965,literature,638,Mikhail Aleksandrovich,Sholokhov,RU,Veshenskaya
 1983,physics,122,Subramanyan,Chandrasekhar,PK,Lahore
 1983,physics,123,William Alfred,Fowler,US,"Pittsburgh, PA"
@@ -157,14 +157,14 @@
 1988,physics,134,Jack,Steinberger,DE,Bad Kissingen
 1988,chemistry,270,Johann,Deisenhofer,DE,Zusamaltheim
 1988,chemistry,271,Robert,Huber,DE,Munich
-1988,chemistry,272,Hartmut,Michel,,Ludwigsburg
+1988,chemistry,272,Hartmut,Michel,?,Ludwigsburg
 1988,medicine,437,Sir James W.,Black,GB,Uddingston
 1988,medicine,438,Gertrude B.,Elion,US,"New York, NY"
 1988,medicine,439,George H.,Hitchings,US,"Hoquiam, WA"
-1988,peace,550,United Nations Peacekeeping Forces,,,
+1988,peace,550,United Nations Peacekeeping Forces,,?,
 1988,literature,665,Naguib,Mahfouz,EG,Cairo
 1988,economics,702,Maurice,Allais,FR,Paris
-1978,physics,110,Pyotr Leonidovich,Kapitsa,,Kronshtadt
+1978,physics,110,Pyotr Leonidovich,Kapitsa,?,Kronshtadt
 1978,physics,111,Arno Allan,Penzias,DE,Munich
 1978,physics,112,Robert Woodrow,Wilson,US,"Houston, TX"
 1978,chemistry,251,Peter D.,Mitchell,UK,Mitcham
@@ -197,14 +197,14 @@
 1995,medicine,453,Christiane,Nüsslein-Volhard,DE,Magdeburg
 1995,medicine,454,Eric F.,Wieschaus,US,"South Bend, IN"
 1995,peace,560,Joseph,Rotblat,PL,Warsaw
-1995,peace,561,Pugwash Conferences on Science and World Affairs,,,
+1995,peace,561,Pugwash Conferences on Science and World Affairs,,?,
 1995,literature,672,Seamus,Heaney,IE,Casteldàwson
 1995,economics,714,Robert E.,Lucas Jr.,US,"Yakima, WA"
 1903,physics,4,Antoine Henri,Becquerel,FR,Paris
 1903,physics,5,Pierre,Curie,FR,Paris
 1903,physics,6,Marie,"Curie, née Sklodowska",PL,Warsaw
 1903,chemistry,162,Svante August,Arrhenius,SE,Vik
-1903,medicine,295,Niels Ryberg,Finsen,,Thorshavn
+1903,medicine,295,Niels Ryberg,Finsen,?,Thorshavn
 1903,peace,466,William Randal,Cremer,UK,Fareham
 1903,literature,572,Bjørnstjerne Martinus,Bjørnson,NO,Kvikne
 1912,physics,17,Nils Gustaf,Dalén,SE,Stenstorp
@@ -238,7 +238,7 @@
 2005,chemistry,794,Yves,Chauvin,BE,Menin
 2005,chemistry,795,Robert H.,Grubbs,US,"Possum Trot, KY"
 2005,chemistry,796,Richard R.,Schrock,US,"Berne, IN"
-2005,peace,797,International Atomic Energy Agency (IAEA),,,
+2005,peace,797,International Atomic Energy Agency (IAEA),,?,
 2005,peace,798,Mohamed,ElBaradei,EG,Cairo
 2005,economics,799,Robert J.,Aumann,DE,Frankfurt-on-the-Main
 2005,economics,800,Thomas C.,Schelling,US,"Oakland, CA"
@@ -251,20 +251,20 @@
 2006,economics,807,Edmund S.,Phelps,US,"Evanston, IL"
 2006,literature,808,Orhan,Pamuk,TR,Istanbul
 2006,peace,809,Muhammad,Yunus,BD,Chittagong
-2006,peace,810,Grameen Bank,,,
+2006,peace,810,Grameen Bank,,?,
 1935,physics,41,James,Chadwick,UK,Manchester
 1935,chemistry,193,Frédéric,Joliot,FR,Paris
 1935,chemistry,194,Irène,Joliot-Curie,FR,Paris
-1935,medicine,329,Hans,Spemann,,Stuttgart
+1935,medicine,329,Hans,Spemann,?,Stuttgart
 1935,peace,500,Carl,von Ossietzky,DE,Hamburg
 2012,medicine,874,Sir John B.,Gurdon,UK,Dippenhall
 2012,medicine,875,Shinya,Yamanaka,JP,Osaka
-2012,physics,876,Serge,Haroche,,Casablanca
+2012,physics,876,Serge,Haroche,?,Casablanca
 2012,physics,877,David J.,Wineland,US,"Milwaukee, WI"
 2012,chemistry,878,Robert J.,Lefkowitz,US,"New York, NY"
 2012,chemistry,879,Brian K.,Kobilka,US,"Little Falls, MN"
 2012,literature,880,Mo,Yan,CN,Gaomi
-2012,peace,881,European Union (EU),,,
+2012,peace,881,European Union (EU),,?,
 2012,economics,882,Alvin E.,Roth,US,"New York, NY"
 2012,economics,883,Lloyd S.,Shapley,US,"Cambridge, MA"
 1960,physics,74,Donald Arthur,Glaser,US,"Cleveland, OH"
@@ -327,9 +327,9 @@
 1968,peace,526,René,Cassin,FR,Bayonne
 1968,literature,642,Yasunari,Kawabata,JP,Osaka
 1938,physics,46,Enrico,Fermi,IT,Rome
-1938,chemistry,198,Richard,Kuhn,,Vienna
+1938,chemistry,198,Richard,Kuhn,?,Vienna
 1938,medicine,333,Corneille Jean François,Heymans,BE,Ghent
-1938,peace,503,Office international Nansen pour les Réfugiés (Nansen International Office for Refugees),,,
+1938,peace,503,Office international Nansen pour les Réfugiés (Nansen International Office for Refugees),,?,
 1938,literature,610,Pearl,Buck,US,"Hillsboro, WV"
 1926,physics,32,Jean Baptiste,Perrin,FR,Lille
 1926,chemistry,183,The (Theodor),Svedberg,SE,Fleräng
@@ -345,7 +345,7 @@
 2007,physics,815,Peter,Grünberg,CZ,Plzen
 2007,chemistry,816,Gerhard,Ertl,DE,Bad Cannstatt
 2007,literature,817,Doris,Lessing,IR,Kermanshah
-2007,peace,818,Intergovernmental Panel on Climate Change (IPCC),,,
+2007,peace,818,Intergovernmental Panel on Climate Change (IPCC),,?,
 2007,peace,819,Albert Arnold (Al),Gore Jr.,US,"Washington, DC"
 2007,economics,820,Leonid,Hurwicz,RU,Moscow
 2007,economics,821,Eric S.,Maskin,US,"New York, NY"
@@ -361,7 +361,7 @@
 1955,medicine,359,Axel Hugo Theodor,Theorell,SE,Linköping
 1955,literature,626,Halldór Kiljan,Laxness,IS,Reykjavik
 1998,physics,155,Robert B.,Laughlin,US,"Visalia, CA"
-1998,physics,156,Horst L.,Störmer,,Frankfurt-on-the-Main
+1998,physics,156,Horst L.,Störmer,?,Frankfurt-on-the-Main
 1998,physics,157,Daniel C.,Tsui,CN,Henan
 1998,chemistry,290,Walter,Kohn,AT,Vienna
 1998,chemistry,291,John A.,Pople,UK,Burnham-on-Sea
@@ -383,7 +383,7 @@
 2001,medicine,736,Tim,Hunt,UK,Neston
 2001,medicine,737,Sir Paul M.,Nurse,UK,Norwich
 2001,physics,738,Eric A.,Cornell,US,"Palo Alto, CF"
-2001,physics,739,Wolfgang,Ketterle,,Heidelberg
+2001,physics,739,Wolfgang,Ketterle,?,Heidelberg
 2001,physics,740,Carl E.,Wieman,US,"Corvallis, OR"
 2001,chemistry,741,William S.,Knowles,US,"Taunton, MA"
 2001,chemistry,742,Ryoji,Noyori,JP,Kobe
@@ -392,7 +392,7 @@
 2001,economics,745,A. Michael,Spence,US,"Montclair, NJ"
 2001,economics,746,Joseph E.,Stiglitz,US,"Gary, IN"
 2001,literature,747,Sir Vidiadhar Surajprasad,Naipaul,TT,
-2001,peace,748,United Nations (U.N.),,,
+2001,peace,748,United Nations (U.N.),,?,
 2001,peace,749,Kofi,Annan,GH,Kumasi
 2002,medicine,750,Sydney,Brenner,ZA,Germiston
 2002,medicine,751,H. Robert,Horvitz,US,"Chicago, IL"
@@ -410,7 +410,7 @@
 1910,physics,15,Johannes Diderik,van der Waals,NL,Leiden
 1910,chemistry,169,Otto,Wallach,RU,Koenigsberg (now Kaliningrad)
 1910,medicine,304,Albrecht,Kossel,DE,Rostock
-1910,peace,477,Bureau international permanent de la Paix (Permanent International Peace Bureau),,,
+1910,peace,477,Bureau international permanent de la Paix (Permanent International Peace Bureau),,?,
 1910,literature,580,Paul Johann Ludwig,Heyse,DE,Berlin
 1969,physics,90,Murray,Gell-Mann,US,"New York, NY"
 1969,chemistry,237,Derek H. R.,Barton,UK,Gravesend
@@ -418,7 +418,7 @@
 1969,medicine,391,Max,Delbrück,DE,Berlin
 1969,medicine,392,Alfred D.,Hershey,US,"Owosso, MI"
 1969,medicine,393,Salvador E.,Luria,IT,Torino
-1969,peace,527,International Labour Organization (I.L.O.),,,
+1969,peace,527,International Labour Organization (I.L.O.),,?,
 1969,literature,643,Samuel,Beckett,IE,Dublin
 1969,economics,677,Ragnar,Frisch,NO,Oslo
 1969,economics,678,Jan,Tinbergen,NL,the Hague
@@ -435,7 +435,7 @@
 1974,economics,684,Gunnar,Myrdal,SE,Skattungbyn
 1974,economics,685,Friedrich August,von Hayek,AT,Vienna
 1917,physics,22,Charles Glover,Barkla,UK,Widnes
-1917,peace,482,Comité international de la Croix Rouge (International Committee of the Red Cross),,,
+1917,peace,482,Comité international de la Croix Rouge (International Committee of the Red Cross),,?,
 1917,literature,586,Karl Adolph,Gjellerup,DK,Roholte
 1917,literature,587,Henrik,Pontoppidan,DK,Fredericia
 1990,physics,138,Jerome I.,Friedman,US,"Chicago, IL"
@@ -474,7 +474,7 @@
 1977,medicine,411,Roger,Guillemin,FR,Dijon
 1977,medicine,412,Andrew V.,Schally,LT,Wilno (now Vilnius)
 1977,medicine,413,Rosalyn,Yalow,US,"New York, NY"
-1977,peace,537,Amnesty International,,,
+1977,peace,537,Amnesty International,,?,
 1977,literature,653,Vicente,Aleixandre,ES,Sevilla
 1977,economics,689,Bertil,Ohlin,SE,Klippan
 1977,economics,690,James E.,Meade,UK,Swanage
@@ -500,13 +500,13 @@
 1907,medicine,300,Charles Louis Alphonse,Laveran,FR,Paris
 1907,peace,471,Ernesto Teodoro,Moneta,IT,Milan
 1907,peace,472,Louis,Renault,FR,Autun
-1907,literature,577,Rudyard,Kipling,,Bombay
-1985,physics,126,Klaus,von Klitzing,,Schroda
+1907,literature,577,Rudyard,Kipling,?,Bombay
+1985,physics,126,Klaus,von Klitzing,?,Schroda
 1985,chemistry,262,Herbert A.,Hauptman,US,"New York, NY"
 1985,chemistry,263,Jerome,Karle,US,"New York, NY"
 1985,medicine,432,Michael S.,Brown,US,"New York, NY"
 1985,medicine,433,Joseph L.,Goldstein,US,"Sumter, SC"
-1985,peace,547,International Physicians for the Prevention of Nuclear War,,,
+1985,peace,547,International Physicians for the Prevention of Nuclear War,,?,
 1985,literature,662,Claude,Simon,MG,Tananarive (now Antananarivo)
 1985,economics,699,Franco,Modigliani,IT,Rome
 1989,physics,135,Norman F.,Ramsey,US,"Washington, DC"
@@ -516,7 +516,7 @@
 1989,chemistry,274,Thomas R.,Cech,US,"Chicago, IL"
 1989,medicine,440,J. Michael,Bishop,US,"York, PA"
 1989,medicine,441,Harold E.,Varmus,US,"Oceanside, NY"
-1989,peace,551,The 14th Dalai Lama (Tenzin Gyatso),,,Taktser
+1989,peace,551,The 14th Dalai Lama (Tenzin Gyatso),,?,Taktser
 1989,literature,666,Camilo José,Cela,ES,Iria Flavia
 1989,economics,703,Trygve,Haavelmo,NO,Skedsmo
 1913,physics,18,Heike,Kamerlingh Onnes,NL,Groningen
@@ -566,7 +566,7 @@
 1957,chemistry,221,Lord (Alexander R.),Todd,GB,Glasgow
 1957,medicine,363,Daniel,Bovet,CH,Neuchâtel
 1957,peace,516,Lester Bowles,Pearson,CA,Toronto
-1957,literature,628,Albert,Camus,,Mondovi
+1957,literature,628,Albert,Camus,?,Mondovi
 1918,physics,23,Max Karl Ernst Ludwig,Planck,DE,Kiel
 1918,chemistry,177,Fritz,Haber,PL,Breslau (now Wroclaw)
 1991,physics,141,Pierre-Gilles,de Gennes,FR,Paris
@@ -646,8 +646,8 @@
 1963,medicine,375,Sir John Carew,Eccles,AU,Melbourne
 1963,medicine,376,Alan Lloyd,Hodgkin,UK,Banbury
 1963,medicine,377,Andrew Fielding,Huxley,UK,Hampstead
-1963,peace,482,Comité international de la Croix Rouge (International Committee of the Red Cross),,,
-1963,peace,523,Ligue des Sociétés de la Croix-Rouge (League of Red Cross Societies),,,
+1963,peace,482,Comité international de la Croix Rouge (International Committee of the Red Cross),,?,
+1963,peace,523,Ligue des Sociétés de la Croix-Rouge (League of Red Cross Societies),,?,
 1963,literature,635,Giorgos,Seferis,TR,Smyrna (now Izmir)
 1932,physics,38,Werner Karl,Heisenberg,DE,Würzburg
 1932,chemistry,191,Irving,Langmuir,US,"Brooklyn, NY"
@@ -702,8 +702,8 @@
 1947,medicine,343,Carl Ferdinand,Cori,CZ,Prague
 1947,medicine,344,Gerty Theresa,"Cori, née Radnitz",CZ,Prague
 1947,medicine,345,Bernardo Alberto,Houssay,AR,Buenos Aires
-1947,peace,508,Friends Service Council (The Quakers),,,
-1947,peace,509,American Friends Service Committee (The Quakers),,,
+1947,peace,508,Friends Service Council (The Quakers),,?,
+1947,peace,509,American Friends Service Committee (The Quakers),,?,
 1947,literature,618,André Paul Guillaume,Gide,FR,Paris
 1966,physics,87,Alfred,Kastler,FR,Guebwiller
 1966,chemistry,232,Robert S.,Mulliken,US,"Newburyport, MA"
@@ -734,11 +734,11 @@
 1961,chemistry,225,Melvin,Calvin,US,"St. Paul, MN"
 1961,medicine,371,Georg,von Békésy,HU,Budapest
 1961,peace,520,Dag Hjalmar Agne Carl,Hammarskjöld,SE,Jönköping
-1961,literature,633,Ivo,Andric,,Dolac
+1961,literature,633,Ivo,Andric,?,Dolac
 1904,physics,8,Lord Rayleigh,(John William Strutt),UK,"Langford Grove, Maldon, Essex"
 1904,chemistry,163,Sir William,Ramsay,GB,Glasgow
 1904,medicine,296,Ivan Petrovich,Pavlov,RU,Ryazan
-1904,peace,467,Institut de droit international (Institute of International Law),,,
+1904,peace,467,Institut de droit international (Institute of International Law),,?,
 1904,literature,573,Frédéric,Mistral,FR,Maillane
 1904,literature,574,José,Echegaray y Eizaguirre,ES,Madrid
 1956,physics,65,William Bradford,Shockley,UK,London
@@ -761,7 +761,7 @@
 1925,peace,488,Sir Austen,Chamberlain,UK,Birmingham
 1925,peace,489,Charles Gates,Dawes,US,"Marietta, OH"
 1925,literature,596,George Bernard,Shaw,IE,Dublin
-1987,physics,130,J. Georg,Bednorz,,Neuenkirchen
+1987,physics,130,J. Georg,Bednorz,?,Neuenkirchen
 1987,physics,131,K. Alexander,Müller,CH,Basel
 1987,chemistry,267,Donald J.,Cram,US,"Chester, VT"
 1987,chemistry,268,Jean-Marie,Lehn,FR,Rosheim
@@ -801,7 +801,7 @@
 1901,peace,463,Frédéric,Passy,FR,Paris
 1901,literature,569,Sully,Prudhomme,FR,Paris
 1986,physics,127,Ernst,Ruska,DE,Heidelberg
-1986,physics,128,Gerd,Binnig,,Frankfurt-on-the-Main
+1986,physics,128,Gerd,Binnig,?,Frankfurt-on-the-Main
 1986,physics,129,Heinrich,Rohrer,CH,Buchs
 1986,chemistry,264,Dudley R.,Herschbach,US,"San José, CA"
 1986,chemistry,265,Yuan T.,Lee,TW,Hsinchu
@@ -820,13 +820,13 @@
 1948,medicine,346,Paul Hermann,Müller,CH,Olten
 1948,literature,619,Thomas Stearns,Eliot,US,"St. Louis, MO"
 1997,physics,152,Steven,Chu,US,"St. Louis, MO"
-1997,physics,153,Claude,Cohen-Tannoudji,,Constantine
+1997,physics,153,Claude,Cohen-Tannoudji,?,Constantine
 1997,physics,154,William D.,Phillips,US,"Wilkes-Barre, PA"
 1997,chemistry,287,Paul D.,Boyer,US,"Provo, UT"
 1997,chemistry,288,John E.,Walker,UK,Halifax
 1997,chemistry,289,Jens C.,Skou,DK,Lemvig
 1997,medicine,457,Stanley B.,Prusiner,US,"Des Moines, IA"
-1997,peace,564,International Campaign to Ban Landmines (ICBL),,,
+1997,peace,564,International Campaign to Ban Landmines (ICBL),,?,
 1997,peace,565,Jody,Williams,US,"Putney, VT"
 1997,literature,674,Dario,Fo,IT,Leggiuno-Sangiano
 1997,economics,717,Robert C.,Merton,US,"New York, NY"
@@ -846,7 +846,7 @@
 2013,chemistry,890,Michael,Levitt,ZA,Pretoria
 2013,chemistry,891,Arieh,Warshel,IL,Kibbutz Sde-Nahum
 2013,literature,892,Alice,Munro,CA,Wingham
-2013,peace,893,Organisation for the Prohibition of Chemical Weapons (OPCW),,,
+2013,peace,893,Organisation for the Prohibition of Chemical Weapons (OPCW),,?,
 2013,economics,894,Eugene F.,Fama,US,"Boston, MA"
 2013,economics,895,Lars Peter,Hansen,US,"Urbana, IL"
 2013,economics,896,Robert J.,Shiller,US,"Detroit, MI"
@@ -872,5 +872,5 @@
 1975,medicine,408,Howard Martin,Temin,US,"Philadelphia, PA"
 1975,peace,534,Andrei Dmitrievich,Sakharov,RU,Moscow
 1975,literature,651,Eugenio,Montale,IT,Genoa
-1975,economics,686,Leonid Vitaliyevich,Kantorovich,,St. Petersburg
+1975,economics,686,Leonid Vitaliyevich,Kantorovich,?,St. Petersburg
 1975,economics,687,Tjalling C.,Koopmans,NL,'s Graveland
