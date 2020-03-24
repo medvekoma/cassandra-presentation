@@ -22,6 +22,11 @@ SELECT * FROM contacts;
 ```
 
 
+| head 1 | head 2 |
+| ------ | ------ |
+| val 1  | val 2  |
+
+
 | Row Key |                 |               |                |
 | ------ :|: ------------- :|: ----------- :|: ------------ :|
 | 1       | name            | phones:Home   | phones:Mobile  |
