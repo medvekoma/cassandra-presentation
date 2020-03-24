@@ -1,10 +1,10 @@
 ## Collections
 
-```sql
-CREATE KEYSPACE demo
-WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
-USE demo;
+#### Create table
 
+* Column `phones` is a map
+
+```sql 
 CREATE TABLE contacts
 (
   id int, 
@@ -12,7 +12,13 @@ CREATE TABLE contacts
   phones map<text, text>, 
   PRIMARY KEY (id)
 );
+```
 
+#### Insert values
+
+* Observe brackets in the map field
+
+```sql
 INSERT INTO contacts 
   (id, name, phones) 
 VALUES 
@@ -23,7 +29,6 @@ SELECT * FROM contacts;
 UPDATE contacts 
 SET phones = phones + {'Other':'+1 205 7897897'} 
 WHERE id = 1;
-
 ```
 
 ### Internal representation

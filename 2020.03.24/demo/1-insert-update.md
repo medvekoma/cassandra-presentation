@@ -1,4 +1,19 @@
+## Create Keyspace
+
+* Keyspace is like a database in RDBMS
+* It can hold several tables
+
+```sql
+CREATE KEYSPACE demo
+WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+USE demo;
+```
+
 ## Inserting and Updating
+
+#### Create Table
+
+* Primary key is mandatory
 
 ```sql
 CREATE TABLE user
@@ -7,7 +22,9 @@ CREATE TABLE user
   name text,
   PRIMARY KEY (id)
 );
+```
 
+```sql
 INSERT INTO user (id, name)
 VALUES ( 1, 'Ada Lovelace');
 
