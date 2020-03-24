@@ -28,7 +28,7 @@ WHERE id = 1;
 
 ### Internal representation
 
-| Row Key | name            | phones:Home   | phones:Mobile  | phones:Other   |
+| Row Key | name            | phones Home   | phones Mobile  | phones Other   |
 | ------ :|: ------------- :|: ----------- :|: ------------ :|: ------------ :|
 | 1       | Cassandra Smith | +36 1 1234567 | +36 30 7894561 | +1 205 7897897 |
 
