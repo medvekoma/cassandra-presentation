@@ -59,7 +59,7 @@ CREATE TABLE laureates_by_year
 );
 
 COPY laureates_by_year (year, category, laureateid, firstname, surname, borncountrycode, borncity)
-FROM 'nobel-laureates.csv';
+FROM '/nobel/laureates.csv';
 
 CREATE MATERIALIZED VIEW laureates_by_category AS
   SELECT * FROM laureates_by_year

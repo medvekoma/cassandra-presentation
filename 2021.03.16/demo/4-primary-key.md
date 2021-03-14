@@ -6,17 +6,46 @@
 
 ### Nobel dataset
 
-* CSV file: `cluster/files/nobel-laureates.csv`
-* Create a table that is organized by `borncountrycode`
-* Table structure: `cluster/files/setup-nobel.sql`
-    * Note that we need to add `laureateid` for uniqueness
-    * Partition key: `borncountrycode`
-    * Clustering key: `laureateid`
-
 ```bash
-./02-setup-nobel.sh
-./node1-shell.sh cqlsh
+# Create new cluster
+./01-start.sh
+
+# Open node1 shell
+./node1-shell.sh
+
+# Open CQL shell (might need to wait a minute)
+cqlsh
 ```
+
+* CSV file: `cluster/nobel/laureates.csv`
+* Create a table that is partitioned by `borncountrycode`
+
+```sql
+-- create keyspace
+CREATE KEYSPACE nobel
+WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 2};
+
+-- create table
+CREATE TABLE nobel.laureates
+(
+  laureateid int,
+  firstname text,
+  surname text,
+  borncountrycode text,
+  borncity text,
+  year int,
+  category text,
+  PRIMARY KEY (borncountrycode, laureateid)
+);
+
+COPY nobel.laureates (year, category, laureateid, firstname, surname, borncountrycode, borncity)
+FROM '/nobel/laureates.csv';
+```
+
+* Note that we need to add `laureateid` for uniqueness
+* Partition key: `borncountrycode`
+* Clustering key: `laureateid`
+
 
 ### Query nobel dataset
 

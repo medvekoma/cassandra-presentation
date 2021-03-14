@@ -9,6 +9,8 @@ services:
     environment:
       CASSANDRA_CLUSTER_NAME: demo
       CASSANDRA_SEEDS: node1,node2,node3
+    volumes:
+      - ./nobel:/nobel
     restart: unless-stopped
 
   node2:

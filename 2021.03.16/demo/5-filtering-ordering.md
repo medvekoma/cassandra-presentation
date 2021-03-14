@@ -55,7 +55,7 @@ CREATE TABLE laureates_by_category (
 WITH CLUSTERING ORDER BY (year DESC);
 
 COPY laureates_by_category (year, category, laureateid, firstname, surname, borncountrycode, borncity)
-FROM 'nobel-laureates.csv';
+FROM '/nobel/laureates.csv';
 
 SELECT * FROM laureates_by_category WHERE category = 'physics';
 SELECT * FROM laureates_by_category WHERE category = 'physics' LIMIT 5;
